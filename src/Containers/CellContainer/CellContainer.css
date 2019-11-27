@@ -1,0 +1,9 @@
+.CellContainer{
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 220px;
+    width: 220px;
+}

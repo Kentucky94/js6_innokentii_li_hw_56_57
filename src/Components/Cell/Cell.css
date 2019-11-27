@@ -1,0 +1,16 @@
+.cell_block{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.hidden{
+    background: #000;
+}
+
+.cell_block:hover{
+    cursor: pointer;
+}
