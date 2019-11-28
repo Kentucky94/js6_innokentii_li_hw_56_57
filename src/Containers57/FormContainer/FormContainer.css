@@ -1,0 +1,13 @@
+.FormContainer{
+    border: 1px solid black;
+    padding: 20px;
+}
+.form_input{
+    margin: 0 20px;
+}
+.price{
+    width: 50px;
+}
+.form_button{
+    margin: 0 20px;
+}

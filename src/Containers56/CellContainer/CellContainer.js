@@ -1,8 +1,9 @@
 import React, {Component, Fragment} from 'react';
+import nanoid from 'nanoid';
 
-import Cell from "../../Components/Cell/Cell";
-import Counter from "../../Components/Counter/Counter";
-import ResetButton from "../../Components/ResetButton/ResetButton";
+import Cell from "../../Components56/Cell/Cell";
+import Counter from "../../Components56/Counter/Counter";
+import ResetButton from "../../Components56/ResetButton/ResetButton";
 
 import './CellContainer.css';
 
@@ -78,6 +79,7 @@ class CellContainer extends Component {
       }
 
       return <Cell
+        key={nanoid()}
         content={cell.content}
         class={cellClass}
         open={() => this.openCell(index)}

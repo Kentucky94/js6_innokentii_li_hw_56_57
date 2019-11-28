@@ -1,0 +1,14 @@
+.ListContainer{
+    border: 1px solid black;
+    margin: 30px;
+    padding: 20px;
+}
+.list{
+    border: 1px solid black;
+    padding: 20px;
+}
+.cost{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
